@@ -1,0 +1,41 @@
+/* Anything between these two tags will be ignored by the browser */
+h1 {
+    color: red;
+}
+
+
+h2 {
+    color: blue;
+    background-color: #5c00f0;
+}
+h3 {
+    color: green;
+    background-color: #3d0149f9;
+}
+
+#ImportantInfo {
+    background-color: rgb(255, 0, 0);
+}
+.specialID {
+    color: blue;
+    
+}
+
+
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #3cff00;
+}
+
+a:hover {
+  color: #eeff00;
+  text-decoration: underline;
+}     
+
+footer {
+background-color: green;
+
+}
