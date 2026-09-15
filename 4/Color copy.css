@@ -1,0 +1,70 @@
+/* Anything between these two tags will be ignored by the browser */
+
+body {
+    font-family: Helvetica ,Arial,sans-serif;
+    background-image: url("Illinois_State_University_seal.svg");   
+   
+}
+
+
+
+.specialID1 {
+    text-align: center;
+
+}
+
+.specialID2 {
+    text-align: justify;
+    
+}
+
+img{
+   border: 10px solid black; 
+   padding: 10px;
+   background-color: yellow;
+}
+
+h1 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+h2 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h3 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#ImportantInfo {
+    background-color: rgb(255, 0, 0);
+}
+.specialID {
+    color: blue;
+    
+}
+
+
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #3cff00;
+}
+
+a:hover {
+  color: #eeff00;
+  text-decoration: underline;
+}     
+
+footer {
+background-color: green;
+
+}
