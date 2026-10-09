@@ -1,0 +1,210 @@
+
+body {
+   
+   
+    background-color: #999999;
+   
+    margin: 0;
+}
+
+#wrap {
+    width: 1200px;
+   
+    margin: 16px auto;
+  
+  
+    border: 4px solid #003c9e;
+   
+    background-color: white;
+}
+
+header {
+   
+    background: linear-gradient(#008cf0, #00458f);
+   
+    padding: 28px 30px;
+}
+
+h1 {
+    
+    font-family: Helvetica, Arial, sans-serif;
+    
+    font-size: 36px;
+    
+    font-style: italic;
+   
+    font-weight: normal;
+    margin: 0;
+}
+
+h1 a {
+    color: #80caff;
+    text-decoration: none;
+}
+
+h1 a:hover {
+   
+    color: white;
+}
+nav a.white 
+{
+color: white;
+
+}
+
+nav {
+   
+   
+    background: linear-gradient(#008cf0, #003c9e);
+}
+
+nav ul {
+    display: flex;
+   
+    list-style-type: none;
+   
+
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    
+    width: 290px;
+    
+    border-right: 5px solid #003c9e;
+}
+
+nav a {
+    display: block;
+    
+    padding: 14px 30px;
+    
+    color: #80caff;
+    font-family: Helvetica, Arial, sans-serif;
+    
+    font-size: 20px;
+    
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover,
+
+nav a.assignment7 {
+    background: linear-gradient(#0078d4, #002f83);
+    color: white;
+}
+
+main {
+    
+    display: grid;
+   
+    grid-template-columns: 1fr 2fr;
+}
+
+section, 
+
+aside, 
+
+article {
+    padding: 16px;
+}
+
+aside 
+{
+    background-color: lightblue;
+    
+    font-family: Georgia, serif;
+   
+    
+    
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+
+
+
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    
+    font-size: 24px;
+    
+    font-weight: normal;
+    color: #003399;
+    
+    border-bottom: 3px solid #003399;
+    
+    padding-bottom: 6px;
+    margin-top: 0;
+}
+
+p {
+   
+    font-family: Helvetica, Arial  ,Georgia;
+}
+
+
+main a {
+    
+    color: red;
+    
+    font-weight: bold;
+    
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+.TownHall {
+    width: 400px;
+   
+    max-width: 55%;
+    float: left;
+   
+    margin: 0 20px 10px 0;
+   
+    border: 3px solid #003399;
+}
+
+.Wyck {
+
+     width: 400px;
+   
+    max-width: 55%;
+    float: right;
+   
+    margin: 0 20px 10px 0;
+   
+    border: 3px solid #003399;
+}
+
+
+
+.main {
+    grid-template-columns: 2fr 1fr;
+}
+
+.layout {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+footer {
+   
+    background-color: #d71900;
+    
+    padding: 12px;
+   
+    border-top: 4px solid #003c9e;
+}
+
+footer img {
+   
+    max-width: 280px;
+}
