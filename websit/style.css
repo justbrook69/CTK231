@@ -133,17 +133,17 @@ nav a.active {
 
 
 
-#projects {
+#webs {
 
     padding: 40px;
 
 }
 
-#projects h2 {
+#webs h2 {
     color: green;
 }
 
-.project-grid {
+.grid {
     display: grid;
 
     grid-template-columns: repeat(3, 1fr);
@@ -157,7 +157,7 @@ article {
     padding: 15px;
 }
 
-.placeholder {
+.img {
     height: 200px;
 
 
@@ -187,20 +187,20 @@ article p {
 
 
 
-#about {
+#me {
     padding: 40px;
     background-color: #191d2b;
 }
 
 
 
-#about h2 {
+#me h2 {
 
     color: green;
 
 }
 
-#about p {
+#me p {
     max-width: 700px;
 
     line-height: 1.6;
