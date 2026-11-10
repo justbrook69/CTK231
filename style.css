@@ -1,0 +1,256 @@
+
+body {
+    margin: 0;
+
+
+
+    color: white;
+
+
+    background-color: #090b12;
+
+
+   
+    font-family: 'Orbitron', Helvetica, sans-serif;
+
+
+}
+
+
+
+
+#wrapper {
+    width: 1200px;
+
+    margin: 0 auto;
+
+
+    background-color: #141824;
+}
+
+
+
+header {
+    background-color: #1d2030;
+
+    padding: 25px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+h1 {
+    color: green;
+    
+text-shadow: 0 0 12px green;
+
+    font-size: 32px;
+    margin: 0;
+}
+
+
+nav ul {
+
+    display: flex;
+    list-style: none;
+
+
+    gap: 30px;
+    margin: 0;
+
+
+    padding: 0;
+}
+
+nav a {
+
+     transition: color 0.3s ease;
+     color: white;
+
+    text-decoration: none;
+    
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    transform: translateY(-5px);
+
+    color: rgb(69, 255, 69);
+
+}
+
+nav a.active {
+    color: green;
+}
+
+
+
+.Main {
+    padding: 100px 60px;
+
+    color: green;
+
+    background-color: #191d2b;
+}
+
+.Main h2 {
+    font-size: 48px;
+
+    max-width: 750px;
+    margin-top: 0;
+
+
+
+
+}
+
+.Main p {
+
+    max-width: 550px;
+    line-height: 1.6;
+
+    
+    color: #b5b9ca;
+}
+
+
+
+
+.button {
+    display: inline-block;
+    background-color: green;
+    color: black;
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    padding: 15px 25px;
+
+
+
+    margin-top: 20px;
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+.button:hover {
+ transform: translateY(-5px);
+
+    
+
+    background-color: rgb(69, 255, 69);
+
+}
+
+
+
+#webs {
+
+    padding: 40px;
+
+}
+
+#webs h2 {
+    color: green;
+}
+
+.grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+}
+
+article {
+    background-color: #343c52;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+    padding: 15px;
+}
+
+.img {
+    height: 200px;
+
+
+    background-color: #343c52;
+    display: flex;
+
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+
+    justify-content: center;
+    align-items: center;
+
+    color: #1d2135;
+}
+
+article h3 {
+
+    color: green;
+
+}
+
+article p {
+
+
+
+    line-height: 1.5;
+    
+}
+
+
+
+#me {
+    padding: 40px;
+    background-color: #191d2b;
+}
+
+
+
+#me h2 {
+
+    color: green;
+
+}
+
+#me p {
+    max-width: 700px;
+
+    line-height: 1.6;
+    
+}
+
+
+
+footer {
+
+    text-align: center;
+    padding: 20px;
+
+    background-color: #1d2030;
+    
+    color: #b5b9ca;
+}
+
+footer a {
+    color: green;
+ transform: scale(1.2);
+}
+footer a:hover {
+    color: rgb(69, 255, 69);
+   
+
+}
